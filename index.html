@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -60,7 +60,7 @@
             <div class="hero-text">
                 <h1>Full-Stack Developer</h1>
                 <p class="subtitle">Building Production-Ready Web Applications</p>
-                <p>Passionate Computer Science student specializing in modern web technologies.</p>
+                <p>Passionate Computer Science student specializing in modern web technologies with enterprise-grade testing.</p>
                 <div class="cta-buttons">
                     <a href="#projects" class="btn btn-primary">
                         <i class="fas fa-eye"></i>
@@ -86,6 +86,7 @@
                         <span class="skill-badge">React</span>
                         <span class="skill-badge">C#</span>
                         <span class="skill-badge">.NET</span>
+                        <span class="skill-badge">Testing</span>
                     </div>
                 </div>
             </div>
@@ -98,7 +99,7 @@
         <div class="about-content">
             <div>
                 <h3>👨‍💻 Who I Am</h3>
-                <p>I'm a passionate Computer Science student with a focus on full-stack web development. I love creating efficient, scalable solutions and learning new technologies to solve real-world problems.</p>
+                <p>I'm a passionate Computer Science student with a focus on full-stack web development. I love creating efficient, scalable solutions with comprehensive testing and learning new technologies to solve real-world problems.</p>
             </div>
             <div>
                 <h3>🚀 Tech Stack</h3>
@@ -128,19 +129,101 @@
     <section id="projects" class="section">
         <h2 class="section-title">Featured Projects</h2>
         <div class="projects-grid">
-            <div class="project-card">
+            <!-- Event Ticketing Platform - Featured Project -->
+            <div class="project-card featured-project">
+                <div class="project-badges">
+                    <span class="badge-new">NEW</span>
+                    <span class="badge-tests">24 Tests Passing</span>
+                </div>
                 <div class="project-image">
-                    <img src="images/home.jpg" alt="Chocolate Ecommerce Platform" />
+                    <img src="images/event-ticketing-platform.jpg" alt="Event Ticketing Platform" />
                     <div class="project-overlay">
                         <div class="overlay-content">
-                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-calendar-alt"></i>
                             <span>View Project</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-content">
-                    <div class="project-title">Chocolate Ecommerce Platform</div>
-                    <p>A production-ready full-stack e-commerce solution with secure payment processing, user authentication, shopping cart functionality, and admin dashboard for inventory management.</p>
+                    <div class="project-title">
+                        <i class="fas fa-ticket-alt"></i>
+                        Event Ticketing Platform
+                    </div>
+                    <p>Enterprise-grade event ticketing system with <strong>24 comprehensive tests</strong>, real-time booking, QR code generation, JWT authentication, payment processing, and analytics dashboard. Built with production-ready architecture.</p>
+                    
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-vial"></i>
+                            <span>24/24 Tests Passing</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Enterprise Security</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Real-time Analytics</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-used">
+                        <span class="tech-tag">.NET 9</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">xUnit</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="your-demo-video-link" target="_blank" class="demo-link">
+                            <i class="fas fa-play"></i> Watch Demo
+                        </a>
+                        <a href="https://github.com/EliezerKibet/EventTicketingPlatform" target="_blank" class="code-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="your-live-site-link" target="_blank" class="live-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chocolate Ecommerce Platform -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/home.jpg" alt="Chocolate Ecommerce Platform" />
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>View Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-title">
+                        <i class="fas fa-store"></i>
+                        Chocolate Ecommerce Platform
+                    </div>
+                    <p>A production-ready full-stack e-commerce solution with secure Stripe payment processing, user authentication, shopping cart functionality, and comprehensive admin dashboard for inventory management.</p>
+                    
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-credit-card"></i>
+                            <span>Stripe Integration</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile Responsive</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-used">
+                        <span class="tech-tag">Next.js 14</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">ASP.NET Core</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+
                     <div class="project-links">
                         <a href="https://youtu.be/91_lUz7Gw2E" target="_blank" class="demo-link">
                             <i class="fas fa-play"></i> Watch Demo
@@ -152,24 +235,67 @@
                 </div>
             </div>
 
+            <!-- AI-Based Garage Management System -->
             <div class="project-card">
                 <div class="project-image">
                     <img src="images/GarageManagementSystem.jpg" alt="AI-Based Garage Management System" />
                     <div class="project-overlay">
                         <div class="overlay-content">
-                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-robot"></i>
                             <span>View Project</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-content">
-                    <div class="project-title">AI-Based Garage Management System</div>
+                    <div class="project-title">
+                        <i class="fas fa-car"></i>
+                        AI-Based Garage Management System
+                    </div>
                     <p>A comprehensive web application to assist garage operations with synchronized data handling, AI-powered diagnostics, real-time inventory management, and automated workflow optimization.</p>
+                    
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Chatbot</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users-cog"></i>
+                            <span>Multi-Role System</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-used">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">ASP.NET Core</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">AI/ML</span>
+                    </div>
+
                     <div class="project-links">
                         <a href="https://github.com/EliezerKibet/AI_based_garage" target="_blank" class="code-link">
                             <i class="fab fa-github"></i> View Repo
                         </a>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quality Assurance Section -->
+        <div class="quality-section">
+            <h3><i class="fas fa-award"></i> Code Quality Excellence</h3>
+            <p>All projects demonstrate enterprise-level practices with comprehensive testing, clean architecture, and production-ready code.</p>
+            <div class="quality-metrics">
+                <div class="metric-item">
+                    <div class="metric-number">24</div>
+                    <div class="metric-label">Tests Passing</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">100%</div>
+                    <div class="metric-label">Test Coverage</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-number">3+</div>
+                    <div class="metric-label">Production Apps</div>
                 </div>
             </div>
         </div>
@@ -181,7 +307,7 @@
         <div class="contact-content">
             <div class="contact-info">
                 <h3>Get In Touch</h3>
-                <p>I'm always open to discussing new opportunities, collaborations, and exciting projects. Whether you're looking for a developer, have a project idea, or just want to connect, I'd love to hear from you!</p>
+                <p>I'm always open to discussing new opportunities, collaborations, and exciting projects. Whether you're looking for a developer with strong testing practices, have a project idea, or just want to connect, I'd love to hear from you!</p>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
                     <div>
@@ -200,6 +326,141 @@
             </div>
         </div>
     </section>
+
+    <style>
+        /* Additional styles for the new features */
+        .featured-project {
+            border: 2px solid #6366f1;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            position: relative;
+            transform: scale(1.02);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+        }
+
+        .project-badges {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 10;
+            display: flex;
+            gap: 8px;
+        }
+
+        .badge-new, .badge-tests {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .badge-new {
+            background: linear-gradient(45deg, #f59e0b, #f97316);
+        }
+
+        .badge-tests {
+            background: linear-gradient(45deg, #10b981, #059669);
+        }
+
+        .project-highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 12px 0;
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+
+        .highlight-item i {
+            color: #6366f1;
+        }
+
+        .tech-used {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 12px 0;
+        }
+
+        .tech-tag {
+            background: #e5e7eb;
+            color: #374151;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .live-link {
+            background: linear-gradient(45deg, #8b5cf6, #7c3aed);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: transform 0.2s;
+        }
+
+        .live-link:hover {
+            transform: translateY(-2px);
+        }
+
+        .quality-section {
+            margin-top: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+            border-radius: 16px;
+            text-align: center;
+        }
+
+        .quality-metrics {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .metric-item {
+            text-align: center;
+        }
+
+        .metric-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #6366f1;
+            line-height: 1;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: #6b7280;
+            margin-top: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .featured-project {
+                transform: none;
+            }
+            
+            .quality-metrics {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
 
     <script>
         // Enhanced portfolio functionality with navigation
@@ -309,8 +570,9 @@
                 });
             });
 
-            // Console welcome message for fellow developers
+            // Enhanced console messages
             console.log('%c👋 Hello fellow developer!', 'color: #6366f1; font-size: 16px; font-weight: bold;');
+            console.log('%c🎫 New: Event Ticketing Platform with 24 tests!', 'color: #10b981; font-size: 14px; font-weight: bold;');
             console.log('%c💻 Built with: HTML5, CSS3, JavaScript', 'color: #10b981; font-size: 12px;');
             console.log('%c📧 Contact: elieserkibet@gmail.com', 'color: #f59e0b; font-size: 12px;');
             console.log('%c🔗 GitHub: https://github.com/EliezerKibet', 'color: #8b5cf6; font-size: 12px;');
